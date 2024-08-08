@@ -9,8 +9,10 @@ function productoEntreNúmeros(a, b) {
   for (let i = a; i <= b; i++){
     producto *= i;
   }
-  if (producto === -0) return 0;
-  else return producto;
+  if (producto === -0) {
+    return 0;
+  } else {
+    return producto;
 }
-
+}
 module.exports = productoEntreNúmeros;

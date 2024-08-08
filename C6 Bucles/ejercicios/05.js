@@ -3,9 +3,9 @@ function esVerdadero(valor) {
   // Caso contrario, retorna "Soy falso".
   // Tu código:
   if (valor == true){
-    return "Soy verdadero"
+    return "Soy verdadero";
   } else{
-    return "Soy falso"
+    return "Soy falso";
   }
 }
 

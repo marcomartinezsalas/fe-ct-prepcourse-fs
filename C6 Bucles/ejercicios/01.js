@@ -6,7 +6,7 @@ function esIgualYNegativo(a, b) {
   if ( a < 0 && b < 0 && a === b){
     return true;
   } else{
-    return false
+    return false;
   }
 }
 

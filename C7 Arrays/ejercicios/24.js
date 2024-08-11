@@ -5,6 +5,17 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
+
+  let resultadosxd = [];
+
+  for (let i = 1; i <= 10; i++){
+    if (i === 5){
+      continue;
+    }
+    num += 2;
+    resultadosxd.push(num);
+  }
+  return resultadosxd;
 }
 
 module.exports = continueStatement;
